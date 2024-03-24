@@ -1,0 +1,16 @@
+.counter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 17px;
+  height: 18px;
+  border-radius: 50%;
+  background-color: #ffa542;
+}
+
+.amount {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+}
