@@ -1,0 +1,81 @@
+.footerWrapper {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 30px 30px 0 0;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.footerInner {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.navFooterList {
+  list-style-type: none;
+  font-size: 17px;
+  padding: 0;
+  margin: 0;
+  padding-left: 45px;
+}
+
+.navFooterList li {
+  margin-bottom: 10px;
+}
+
+.navFooterLink {
+  text-decoration: none;
+  color: #000;
+  transition: color 0.3s;
+}
+
+.navFooterLink:hover {
+  color: #ffa542;
+}
+
+.blockTermsLang {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  padding-left: 35px;
+}
+
+.termsLink {
+  text-decoration: none;
+  color: #000;
+  font-size: 17px;
+  transition: color 0.3s;
+}
+
+.termsLink:hover {
+  color: #ffa542;
+}
+
+.languageList {
+  position: relative;
+  display: flex;
+  gap: 17px;
+  font-size: 15px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  padding-left: 33px;
+}
+
+.activeLang {
+  color: #ffa542;
+}
+
+.languageList::before {
+  position: absolute;
+  left: -2px;
+  content: '';
+  width: 20px;
+  height: 20px;
+  background-image: url('../../assets/iconLang.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.socialWrapper {
+  justify-self: end;
+}

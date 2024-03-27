@@ -11,7 +11,7 @@ const Header = () => {
   return (
     <header>
       <Container className={classes.headerWrapper}>
-          <img src={logoImg} alt="logo" />
+          <img src={logoImg} alt="logo Qpick" />
           <div className={classes.iconsBlock}>
             <a href="#favorite" className={classes.link}>
               <img className={classes.icon} src={iconFavorite} alt="favorite" />
