@@ -1,9 +1,14 @@
+import { Route, Navigate, Routes } from 'react-router-dom';
 import Layout from './components/layout/Layout';
+import Products from './pages/Products';
 
 function App() {
   return (
     <Layout>
-      <h1>App</h1>
+      <Routes>
+        <Route path="/" element={<Navigate to="/products" />} />
+        <Route path="/products" element={<Products />} />
+      </Routes>
     </Layout>
   );
 }

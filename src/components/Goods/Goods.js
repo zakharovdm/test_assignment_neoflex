@@ -1,0 +1,18 @@
+import { Fragment } from 'react';
+import ProductItem from './ProductItem';
+
+const Goods = (props) => {
+  const goods = props.data;
+
+  return (
+    <Fragment>
+      <ul>
+        {goods.map((item) => (
+          <ProductItem product={item} />
+        ))}
+      </ul>
+    </Fragment>
+  );
+};
+
+export default Goods;
