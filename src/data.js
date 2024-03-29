@@ -35,7 +35,7 @@ const data = {
       id: 4,
       img: imgBYZS8521,
       name: 'Apple BYZ S852I',
-      priceWithoutDiscount: 3527,
+      priceWithoutDiscount: 2927,
       priceWithDiscount: 2927,
       rate: 4.7,
     },

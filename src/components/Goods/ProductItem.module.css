@@ -1,0 +1,82 @@
+.productItem {
+  font-weight: 600;
+  background-color: #ffffff;
+  border-radius: 30px;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-bottom: 27px;
+  padding-top: 15px;
+  box-sizing: border-box;
+  width: 350px;
+}
+
+.innerImg {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 54px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+
+.productName {
+  font-size: 17px;
+  color: #1c1c27;
+  margin: 0;
+}
+
+.rate {
+  position: relative;
+  font-size: 17px;
+  color: #838383;
+  margin: 0;
+  padding-left: 50px;
+}
+
+.rate:before {
+  content: '';
+  position: absolute;
+  width: 24px;
+  height: 22px;
+  background-image: url('../../assets/star.svg');
+  background-repeat: no-repeat;
+  left: 16px;
+}
+
+.buttonBuy {
+  font-family: 'Montserrat', sans-serif;
+  color: #000;
+  font-weight: 600;
+  font-size: 17px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.buttonBuy:hover {
+  color: #ffa542;
+}
+
+.priceInner {
+  height: 51px;
+}
+
+.priceWithDiscount {
+  font-size: 17px;
+  color: #ffa542;
+  margin: 0;
+}
+
+.priceWithoutDiscount {
+  text-decoration: line-through;
+  font-size: 13px;
+  color: #ffce7f;
+  margin: 0;
+  text-align: end;
+  padding-right: 8px;
+}
